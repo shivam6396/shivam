@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inverties</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <nav class="first-nav">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="invertis.png" alt="" />
+                </div>
+            </div>
+            <div class="mobile-btn">
+                <i class="fa-solid fa-bars mobileicon"></i>
+            </div>
+        </nav>
+        <nav class="second-nav">
+            <ul class="nav-list">
+                <li class="list-item"><a href="home.html">Home</a></li>
+                <li class="list-item"><a href="">Papers</a></li>
+                <li class="list-item">
+                    <a href="">Quiz </a><i class="fa-solid fa-caret-down ns"></i>
+                    <div class="drowdown">
+                        <ul>
+                            <li><a href="Html_quiz.html">Html</a></li>
+                            <li><a href="jsquiz.html">JavaScript</a></li>
+                            <li><a href="css_quiz.html">Css</a></li>
+                            <li><a href="php_quiz.html">Php</li>
+                            <li><a href="">Node Js</a></li>
+                            <li><a href="python.html">Python</a></li>
+                            <li><a href="">Java</a></li>
+                            <li><a href="">C++</a></li>
+                            <li><a href="">React</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-item"><a href="">Notes</a><i class="fa-solid fa-caret-down ns"></i>
+                    <div class="drowdown-for-notes">
+                        <ul>
+                            <li><a href="">Mca</a></li>
+                            <li><a href="">Bca</a></li>
+                            <li><a href="">B.sc(cs)</a></li>
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="list-item"><a href="">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br><br><br><br>
+    <main>
+        <div class="h1-box">
+            <h2 class="frist-h1">SELECT YOUR PROGRAM FOR DOWNLOAD PAPERS.</h2>
+        </div><br>
+        <div id="depart_ca" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Computer Application</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">BCA</button>
+                <button class="btn-for-program">BCA(AI)</button>
+                <button class="btn-for-program">BCA(Cloud)</button>
+                <button class="btn-for-program">BSC(CS)</button>
+                <button class="btn-for-program">MCA</button>
+            </div>
+        </div>
+        <div id="depart_edu" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Education</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">BE</button>
+                <button class="btn-for-program">BA&BE</button>
+                <button class="btn-for-program">BSC&BE</button>
+                <button class="btn-for-program">MA</button>
+                <button class="btn-for-program">Docter of (Phly)</button>
+            </div>
+        </div>
+        <div id="depart_agi" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Agriculture</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">BSC(Honours)</button>
+                <button class="btn-for-program">BSC(Food Tech.)</button>
+                <button class="btn-for-program">MSC(Agronomy)</button>
+            </div>
+        </div>
+        <div id="depart_low" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Low</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">LL.B</button>
+                <button class="btn-for-program">BA LL.B</button>
+                <button class="btn-for-program">BBA & BLL</button>
+                <button class="btn-for-program">B.Com & BLL</button>
+                <button class="btn-for-program">LL.M</button>
+                <button class="btn-for-program">Ph.D</button>
+            </div>
+        </div>
+        <div id="depart_bio" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Biotechnology</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">B.Tech(Biotech)</button>
+                <button class="btn-for-program">B.Tech(Biotech&Let)</button>
+                <button class="btn-for-program">BCS(Biotech)</button>
+                <button class="btn-for-program">BSC(Fors.Sci.)</button>
+                <button class="btn-for-program">MSC(Biotech)</button>
+                <button class="btn-for-program">MSC(Microbiology)</button>
+                <button class="btn-for-program">Ph.D(Env.Sci.)</button>
+                <button class="btn-for-program">Ph.D(Biotech)</button>
+                <button class="btn-for-program">Ph.D(Microbiology)</button>
+            </div>
+        </div><br>
+        <div id="depart_ph" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Pharmacy</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">B.Pharma</button>
+                <button class="btn-for-program">B.Pharma(Let)</button>
+                <button class="btn-for-program">D.Pharma</button>
+                <button class="btn-for-program">Ph.D</button>
+            </div>
+        </div><br>
+        <div id="depart_fas" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Fashion Design</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">BSC</button>
+
+
+            </div>
+        </div><br>
+
+        <div id="depart_ee" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Electrical Engineering</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">B.Tech(EE)</button>
+                <button class="btn-for-program">B.Tech(EE&Let)</button>
+                <button class="btn-for-program">Ph.D</button>
+            </div>
+        </div><br>
+        <div id="depart_me" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Mechanical Engineering</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">B.Tech(ME)</button>
+                <button class="btn-for-program">B.Tech(LET)</button>
+                <button class="btn-for-program">M.Tech(ME)</button>
+                <button class="btn-for-program">Diploma(AM)</button>
+                <button class="btn-for-program">Diploma(AM&Let)</button>
+                <button class="btn-for-program">Diploma(Prod.)</button>
+                <button class="btn-for-program">Diploma(prod.&Let)</button>
+                <button class="btn-for-program">Ph.D</button>
+            </div>
+            </div>
+            <br>
+            <div id="depart_cve" style="display: none;" class="outer-program-box">
+                <div class="h1-box">
+                    <h2 class="frist-h2">Programs:- Department of Civil Engineering</h2>
+                </div>
+                <div class="computer-application-program">
+    
+                    <button class="btn-for-program">B.Tech(Civil)</button>
+                    <button class="btn-for-program">B.Tech(EE&Let)</button>
+                    <button class="btn-for-program">M.Tech(Civil)</button>
+                </div>
+            </div>
+            <br>
+            <div id="depart_eng" style="display: none;" class="outer-program-box">
+                <div class="h1-box">
+                    <h2 class="frist-h2">Programs:- Department of Computer Science & Engineering</h2>
+                </div>
+                <div class="computer-application-program">
+    
+                    <button class="btn-for-program">B.Tech</button>
+                    <button class="btn-for-program">B.Tech(Let)</button>
+                    <button class="btn-for-program">B.Tech(AI)</button>
+                    <button class="btn-for-program">B.Tech(AI&Let)</button>
+                    <button class="btn-for-program">B.Tech(C&CS)</button>
+                </div>
+            </div>
+            <br>
+       
+        <div id="depart_mag" style="display: none;" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="frist-h2">Programs:- Department of Management</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">BBA</button>
+                <button class="btn-for-program">B.Com</button>
+                <button class="btn-for-program">B.Com(Hon)</button>
+                <button class="btn-for-program">MBA</button>
+                <button class="btn-for-program">Ph.D</button>
+            </div>
+        </div>
+
+       
+
+
+
+        
+       <!-- <div id="depart_ash" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="second-h2">Programs:- Department of Applied Science. & Humanality</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">BSC(Physics)</button>
+                <button class="btn-for-program">BSC(Chemistry)</button>
+                <button class="btn-for-program">BSC(Math)</button>
+                <button class="btn-for-program">BSC(PCM)</button>
+                <button class="btn-for-program">BSC(ZBC)</button>
+                <button class="btn-for-program">BA(English)</button>
+                <button class="btn-for-program">BA(Phychology)</button>
+                <button class="btn-for-program">MSC(Chemistry)</button>
+                <button class="btn-for-program">MSC(Math)</button>
+                <button class="btn-for-program">MSC(Physics)</button>
+                <button class="btn-for-program">Ph.D(Math)</button>
+                <button class="btn-for-program">Ph.D(Physics)</button>
+                <button class="btn-for-program">Ph.D(Chemistry)</button>
+            </div>
+        </div><br>
+
+       
+
+        <br>
+
+        </div><br>
+        <div id="depart_jmc" class="outer-program-box">
+            <div class="h1-box">
+                <h2 class="second-h2">Programs:- Department of Journalism & Mass Communication</h2>
+            </div>
+            <div class="computer-application-program">
+
+                <button class="btn-for-program">BA</button>
+                <button class="btn-for-program">Ph.D</button>
+
+            </div>
+        </div>
+        </div><br>  -->
+        </div>
+        <footer class="footer">
+            <div class="footer-heding-box">
+              <h2 class="footer-back-to-top">Back to Top</h2>
+            </div>
+        
+            <div class="container">
+              <div class="contaner-A">
+                <div class="footer-card">
+                  <div class="footer-card-content">
+                    <a class="footer-link" href=""><li class="footer-li">Home</li></a>
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">About</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Contact</li></a
+                    >
+                    <a class="footer-link" href=""><li class="footer-li">Quiz</li></a>
+                    <a class="footer-link" href=""><li class="footer-li">FAQ</li></a>
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Report a Problem</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Site Feedback</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Feedback</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Help Center</li></a
+                    >
+                  </div>
+                </div>
+                <div class="footer-card">
+                  <div class="footer-card-content">
+                    <a class="footer-link" href=""><li class="footer-li">Quiz</li></a>
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">JavaScript Quiz</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Html Quiz</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Css Quiz</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Php Quiz</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">C++ Quiz</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Sql Quiz</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">React Quiz</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">java Quiz</li></a
+                    >
+                  </div>
+                </div>
+                <div class="footer-card">
+                  <div class="footer-card-content">
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Papers</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Notes</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Exam Preparation</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Study Materials</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Tutorials</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Online Learning</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Practice Testst</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Study Guides</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">E-books</li></a
+                    >
+                  </div>
+                </div>
+                <div class="footer-card">
+                  <div class="footer-card-content">
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Revision Resources</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Student Success</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Career Development</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Student Support</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Contact Information</li></a
+                    >
+                    <a class="footer-link" href=""><li class="footer-li">Blog</li></a>
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Contact Information</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Online Courses</li></a
+                    >
+                    <a class="footer-link" href=""
+                      ><li class="footer-li">Scholarship Information</li></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="contaner-B">
+                <div class="footer-card-invertis">
+                  <div class="footer-card-all-logo">
+                    <div class="footer-invertis-logo-box">
+                      <img id="footer-invertis-logo" src="invertis.png" alt="" />
+                    </div>
+                    <div class="addressmsgbox">
+                      <span class="addressmsg"
+                        >Invertis Village, Delhi Lucknow Highway NH-24,</span
+                      >
+                      <span class="addressmsg"
+                        >Bareilly - 243 123, Uttar Pradesh, India</span
+                      >
+                    </div>
+                    <div class="orginal-website">
+                      <a href=""
+                        ><button id="btn-for-offical-website">
+                          Go to Official invertis Website
+                        </button></a
+                      >
+                    </div>
+                    <div class="line2"></div>
+                    <p class="follow-us-msg">Follow us &#128204;</p>
+                    <div class="footer-fb-in-ytb-logo">
+                      <div class="fiyl">
+                        <a href=""><img src="fb.svg" alt="" /></a>
+                      </div>
+                      <div class="fiyl">
+                        <a href=""><img src="twitter.png" alt="" /></a>
+                      </div>
+                      <div class="fiyl">
+                        <a href=""><img src="instagtam.svg" alt="" /></a>
+                      </div>
+                      <div class="fiyl">
+                        <a href=""><img src="youtube.svg" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright-box">
+              <p id="copyright-p">
+                Copyright &copy; All right reserved 2024-25 Invertis online
+              </p>
+              <p id="designby">Website Design and Developed by Shivam Yadav</p>
+            </div>
+          </footer>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>

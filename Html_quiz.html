@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="jsquizstyle.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="responsive.css">
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+   integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ />
+</head>
+<body>
+
+    <header class="header">
+        <nav class="first-nav">
+          <div class="logo-container">
+            <div class="logo">
+              <img src="invertis.png" alt="" />
+            </div>
+          </div>
+          <div class="mobile-btn">
+            <i class="fa-solid fa-bars mobileicon"></i>
+          </div>
+        </nav>
+        <nav class="second-nav">
+          <ul class="nav-list">
+            <li class="list-item"><a href="">Home</a></li>
+            <li class="list-item"><a href="">Papers</a></li>
+            <li class="list-item">
+              <a href="">Quiz </a><i class="fa-solid fa-caret-down ns"></i>
+              <div class="drowdown">
+                <ul>
+                  <li><a href="">Html</a></li>
+                  <li><a href="jsquiz.html">JavaScript</a></li>
+                  <li><a href="">Css</a></li>
+                  <li><a href="">Php</li>
+                  <li><a href="">Node Js</a></li>
+                  <li><a href="">Python</a></li>
+                  <li><a href="">Java</a></li>
+                  <li><a href="">C++</a></li>
+                  <li><a href="">React</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="list-item"><a href="">Notes</a><i class="fa-solid fa-caret-down ns"></i>
+              <div class="drowdown-for-notes">
+                <ul>
+                  <li><a href="">Mca</a></li>
+                  <li><a href="">Bca</a></li>
+                  <li><a href="">B.sc(cs)</a></li>
+              
+                 
+                </ul>
+              </div>
+            </li>
+            <li class="list-item"><a href="">About</a></li>
+          </ul>
+        </nav>
+      </header>
+   <div class="app">
+       <h1>HTML MCQ</h1><span id="timer"> </span>
+       <div class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons">
+       <!-- <button class="btn">ansewr1</button>
+       <button class="btn">ansewr1</button>
+       <button class="btn">ansewr1</button>
+       <button class="btn">ansewr1</button> -->
+
+        </div>
+        <button id="next-btn">Next</button>
+        <button id="try-again-btn">Try Again </button>
+       </div>
+   </div>
+   <footer class="footer">
+    <div class="footer-heding-box">
+      <h2 class="footer-back-to-top">Back to Top</h2>
+    </div>
+
+    <div class="container">
+      <div class="contaner-A">
+        <div class="footer-card">
+          <div class="footer-card-content">
+            <a class="footer-link" href=""><li class="footer-li">Home</li></a>
+            <a class="footer-link" href=""
+              ><li class="footer-li">About</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Contact</li></a
+            >
+            <a class="footer-link" href=""><li class="footer-li">Quiz</li></a>
+            <a class="footer-link" href=""><li class="footer-li">FAQ</li></a>
+            <a class="footer-link" href=""
+              ><li class="footer-li">Report a Problem</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Site Feedback</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Feedback</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Help Center</li></a
+            >
+          </div>
+        </div>
+        <div class="footer-card">
+          <div class="footer-card-content">
+            <a class="footer-link" href=""><li class="footer-li">Quiz</li></a>
+            <a class="footer-link" href=""
+              ><li class="footer-li">JavaScript Quiz</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Html Quiz</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Css Quiz</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Php Quiz</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">C++ Quiz</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Sql Quiz</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">React Quiz</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">java Quiz</li></a
+            >
+          </div>
+        </div>
+        <div class="footer-card">
+          <div class="footer-card-content">
+            <a class="footer-link" href=""
+              ><li class="footer-li">Papers</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Notes</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Exam Preparation</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Study Materials</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Tutorials</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Online Learning</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Practice Testst</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Study Guides</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">E-books</li></a
+            >
+          </div>
+        </div>
+        <div class="footer-card">
+          <div class="footer-card-content">
+            <a class="footer-link" href=""
+              ><li class="footer-li">Revision Resources</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Student Success</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Career Development</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Student Support</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Contact Information</li></a
+            >
+            <a class="footer-link" href=""><li class="footer-li">Blog</li></a>
+            <a class="footer-link" href=""
+              ><li class="footer-li">Contact Information</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Online Courses</li></a
+            >
+            <a class="footer-link" href=""
+              ><li class="footer-li">Scholarship Information</li></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="contaner-B">
+        <div class="footer-card-invertis">
+          <div class="footer-card-all-logo">
+            <div class="footer-invertis-logo-box">
+              <img id="footer-invertis-logo" src="invertis.png" alt="" />
+            </div>
+            <div class="addressmsgbox">
+              <span class="addressmsg"
+                >Invertis Village, Delhi Lucknow Highway NH-24,</span
+              >
+              <span class="addressmsg"
+                >Bareilly - 243 123, Uttar Pradesh, India</span
+              >
+            </div>
+            <div class="orginal-website">
+              <a href=""
+                ><button id="btn-for-offical-website">
+                  Go to Official invertis Website
+                </button></a
+              >
+            </div>
+            <div class="line2"></div>
+            <p class="follow-us-msg">Follow us &#128204;</p>
+            <div class="footer-fb-in-ytb-logo">
+              <div class="fiyl">
+                <a href=""><img src="fb.svg" alt="" /></a>
+              </div>
+              <div class="fiyl">
+                <a href=""><img src="twitter.png" alt="" /></a>
+              </div>
+              <div class="fiyl">
+                <a href=""><img src="instagtam.svg" alt="" /></a>
+              </div>
+              <div class="fiyl">
+                <a href=""><img src="youtube.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright-box">
+      <p id="copyright-p">
+        Copyright &copy; All right reserved 2024-25 Invertis online
+      </p>
+      <p id="designby">Website Design and Developed by Shivam Yadav</p>
+    </div>
+  </footer>
+   <script src="all_quiz_dataset.js"></script>
+    <script src="html_quiz.js"></script>
+ 
+</body>
+</html>
